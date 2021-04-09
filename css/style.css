@@ -1,0 +1,14 @@
+selector{
+    property:value;
+}
+body{
+    background-color:lightpink
+}
+th{
+background-color: rgb(102, 94, 94);
+color: rgb(255, 255, 255);    
+}
+td{
+    background-color:navy;
+    color: white;
+}
