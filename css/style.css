@@ -1,14 +1,266 @@
-selector{
-    property:value;
+*{
+    margin: 0;
+    padding: 0;
+    
 }
-body{
-    background-color:lightpink
+.main{
+    overflow: hidden;
 }
-th{
-background-color: rgb(102, 94, 94);
-color: rgb(255, 255, 255);    
+.logo{
+    background-color: blue;
+    color: cornsilk;
+    height: 80px;
+
 }
-td{
-    background-color:navy;
+
+.navigation{
+    background-color: crimson;
+    color: cyan;
+    text-align: center;
+    height: 40px;
+    
+
+}
+.header{
+    background-color: chocolate;
+    color: white
+    text-align: center;
+    height: 100px;
+}
+.side_bar{
+    background-color: darkolivegreen;
+    color: darkturquoise;
+    height: 300px;
+width: 30%;
+float: left;
+}
+.body{
+background-color: maroon;
+color: mintcream;
+height: 300px;
+width: 70%;
+float: right;
+}
+.footer{
+    height: 50px;
+    background-color: purple;
+    color: seashell;
+}
+.devider{
+    background-color: white;
+    text-align: center;
+    height: 200px;
+}
+
+
+
+
+
+
+
+.logo2{
+background-color: black;
+height: 80px;
+color: white;
+}
+.header2{
+    background-color: brown;
+    height: 120px;
+    color: white;
+    text-align: center;
+
+}
+.intro2{
+background-color: crimson;
+height: 100px;
+}
+.main2{
+overflow: hidden;
+}
+.box1{
+    background-color: darkgreen;
+    height: 400px;
+    width: 33%;
+    float: left;
+    text-align: center;
+
+}
+.box2{
+    background-color: darkmagenta;
+    height: 400px;
+    width: 33%;
+    float: left;
+    text-align: center;
+
+}
+.box3{
+    background-color: darkslategrey;
+    height: 400px;
+    width: 34%;
+    float: left;
+    text-align: center;
+}
+
+.footer2{
+    height: 80px;
+    background-color: darkturquoise;
+    text-align: center;
+}
+
+
+
+
+
+.logo3{
+    height: 80px;
+    background-color: yellow;
+    color: black;
+}
+.navigation3{
+    height: 500px;
+    background-color: teal;
+    color: white;
+    float: left;
+    width: 30%;
+}
+.main3{
+overflow: hidden;
+}
+.header3{
+    height: 150px;
+    background-color: blue;
+    color: cornsilk;
+    text-align: center;
+    float: left;
+    width: 70%;
+}
+.body3{
+    height: 350px;
+    background-color: cyan;
+    color: darkred;
+    text-align: center;
+    float: left;
+    width: 70%;
+}
+.footer3{
+    background-color: dimgray;
+    text-align: center;
+
+}
+
+
+
+
+
+
+.main{
+    overflow: hidden;
+}
+.logo4{
+    background-color: fuchsia;
+    width: 30%;
+    height: 80px;
+    float: left;
+}
+.navigation4{
+    background-color: gold;
+    width: 70%;
+    height: 80px;
+    float: left;
+}
+.image1{
+    width: 25%;
+    height: 80px;
+    background-color: beige;
+    float: left;
+}
+.image2{
+    width: 25%;
+    height: 80px;
+    background-color: blue;
+    float: left;
+}
+.image3{
+    width: 25%;
+    height: 80px;
+    background-color: skyblue;
+    float: left;
+}
+.image4{
+    width: 25%;
+    height: 80px;
+    background-color: green;
+    float: left;
+}
+.image5{
+    width: 25%;
+    height: 80px;
+    background-color: yellow;
+    float: left;
+}
+.image6{
+    width: 25%;
+    height: 80px;
+    background-color: orangered;
+    float: left;
+}
+.image7{
+    width: 25%;
+    height: 80px;
+    background-color: red;
+    float: left;
+}
+.image8{
+    width: 25%;
+    height: 80px;
+    background-color: violet;
+    float: left;
+}
+.image9{
+    width: 25%;
+    height: 80px;
+    background-color: blue;
+    float: left;
+}
+.image10{
+    width: 25%;
+    height: 80px;
+    background-color: skyblue;
+    float: left;
+}
+.image11{
+    width: 25%;
+    height: 80px;
+    background-color: green;
+    float: left;
+}
+.image12{
+    width: 25%;
+    height: 80px;
+    background-color: yellow;
+    float: left;
+}
+.box_a{
+height: 150px;
+width: 33%;
+float: left;
+background-color: red;
+}
+.box_b{
+    height: 150px;
+    width: 33%;
+    float: left;
+    background-color: silver;
+
+}
+.box_c{
+    height: 150px;
+    width: 34%;
+    float: left;
+    background-color: blue;
+
+}
+.footer4{
+    background-color: black;
     color: white;
 }
