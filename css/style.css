@@ -1,159 +1,99 @@
-*{
+text{
     margin: 0%;
     padding: 0%;
 }
 header{
 
-background-color: black;
+background-color: #5CBAFF;
 }
-.header-content{
+header nav{
 
-width: 90%;
-
-background-color: black;
-
-overflow: hidden;
+width: 43%;
 
 margin: auto;
 }
-.logo{
+header nav ul{
+
+list-style: none;
+
+display: flex;
+
+justify-content: space-between;
+
+margin: 0px;
+
+padding: 25px;
+}
+header nav ul li{
 
 }
-.logo img{
-
-width: 14%;
-}
-.header-content ul{
-
-margin-top: 10px;
-}.header-content ul li{
+header nav ul li a{
     
 color: white;
     
-float: right;
+text-decoration: none;
     
-list-style: none;
+font-size: 20px;
     
-margin-right: 21px;
+font font-weight: 6;
 }
-.main-content img{
-    
-width: 50%;
-    
-margin-left: 25%;
-    
-padding-top: 37px;
+.content{display: flex;}
+.left{
+
+width: 40%;
+
+background-color: #5CBAFF;
 }
-.feature1{
-    
-width: 90%;
-    
-margin-left: 5%;
-    
-padding-top: 50px;
-}
-.left-content{
-
-width: 30%;
-
-float: left;
-
-text-align: center;
-}
-.left-content p{
-
-}
-.left-content img{
-}
-.middle-content{
-
-float: left;
-
-width: 30%;
-
-margin-left: 5%;
-
-text-align: center;
-}
-.middle-content img{
-
-}
-.middle-content p{
-
-}
-.right-content{
-
-float: right;
-
-width: 30%;
-
-text-align: center;
-}
-.right-content p{
-
-}
-.right-content img{
-
-}
-.feature2{
-
-width: 90%;
-
-margin-left: 5%;
-
-overflow: hidden;
-
-padding-top: 98px;
-}
-.left-text{
-
-width: 45%;
-
-float: left;
-
-text-align: center;
-}
-.left-text h3{
-
-}
-.left-text p{
-
-}
-.right-text{
-    
-width: 45%;
-    
-float: right;
-    
-text-align: center;
-}
-.right-text p{
-
-}
-.right-text h3{
-
-}
-.feature3{
+.left img{
 
 width: 80%;
 
 margin-left: 10%;
-
-overflow: hidden;
-
-padding-top: 56px;
 }
-.bottom-left-image{
+.right-form{
 
-float: left;
+width: 60%;
+
+background-color: #0093FF;
+
+display: flex;
+
+justify-content: center;
+
+align-items: center;
 }
-.bottom-left-image img{
+.form-content{
+
+width: 50%;
+
+/* background-color: red; */
+
+display: flex;
+
+justify-content: center;
+
+align-items: center;
+}
+.form-content h3{
+
+color: white;
+}
+.form-content h4{
+
+color: white;
+}
+.form-content p{
+
+color: white;
+}
+.form-content form{
 
 }
-.bottom-right-image{
-
-float: right;
-}
-.bottom-right-image img{
+.form-content form input{
     
+width: 100%;
+    
+padding: 10px 0 10px 5px;
+    
+margin: 5px 0;
 }
