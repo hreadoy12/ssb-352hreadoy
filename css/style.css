@@ -5,6 +5,8 @@ text{
 header{
 
 background-color: #5CBAFF;
+
+border-bottom: 1px solid #b8b8b8;
 }
 header nav{
 
@@ -66,13 +68,7 @@ align-items: center;
 
 width: 50%;
 
-/* background-color: red; */
-
-display: flex;
-
-justify-content: center;
-
-align-items: center;
+padding: 75px;
 }
 .form-content h3{
 
@@ -81,6 +77,8 @@ color: white;
 .form-content h4{
 
 color: white;
+
+text-transform: capitalize;
 }
 .form-content p{
 
@@ -96,4 +94,14 @@ width: 100%;
 padding: 10px 0 10px 5px;
     
 margin: 5px 0;
+}
+.form-content form input[type="submit"]{
+    
+width: 20%;
+    
+padding-left: 0;
+    
+text-transform: capitalize;
+    
+font-weight: 600;
 }
